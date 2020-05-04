@@ -12,6 +12,7 @@ import org.json.JSONObject;
 
 /**
  * Created by hp on 2020/5/3.
+ * 这省市县的数据简单 用jsonobject就行 关于天气的用gson
  */
 
 public class Utility {
