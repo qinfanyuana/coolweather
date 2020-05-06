@@ -8,7 +8,7 @@
     android:layout_margin="15dp">
 
 
-//显示天气预报日期 显示天气概况 最高温度最低温度
+<!--//显示天气预报日期 显示天气概况 最高温度最低温度-->
     <TextView
 
         android:id="@+id/date_text"

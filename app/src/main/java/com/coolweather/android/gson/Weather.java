@@ -2,6 +2,7 @@ package com.coolweather.android.gson;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,6 +15,8 @@ public class Weather {
     public Basic basic;
     public AQI aqi;
     public Now now;
+
     @SerializedName("daily_forest")
-    public List<Forecast>forecastList;//集合
+    public List<Forecast> forecastList=new ArrayList<>();
+    //集合 这里要初始化啊啊啊啊不然报错555555
 }
